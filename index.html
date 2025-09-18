@@ -129,23 +129,35 @@
   </tr>
 </table>
 <br><br>
+<!-- Form tag-->
 
+<form>
 <label for="fname">First Name:</label>
 <br>
-<input type="text"id="fname" name="fname" required>
+<input type="text"id="fname" name="fname" placeholder="First Name" required>
 <br><br>
+
 <label for="lname">Last Name</label>
 <br>
-<input type="lname"id="lname" name="lname"required>
+<input type="lname"id="lname" name="lname" placeholder="Last Name">
 <br><br>
+
 <label for="email">Email</label>
 <br>
-<input type="email" name="email" id="email"required>
+<input type="email" name="email" id="email" placeholder="Email" required>
 <br><br>
+
 <label for="phone">Phone</label>
 <br>
-<input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+<input type="tel" name="phone" id="phone" placeholder="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
 <br><br>
+
+<label for="password">Password</label>
+<br>
+<input type="password" name="password" id="password">
+<br><br>
+<!--Radio Tag-->
+
 <label for="gender">Gender:</label>
 <br>
 <input type="radio" name="gender" id="male" value="male" required>
@@ -159,5 +171,174 @@
 <input type="radio" name="gender" id="other" value="other" required>
 
 <label for="other">Other</label>
+<br><br>
+
+<label for="country">Country</label>
+<br>
+<select name="country" id="country"required>
+  <option value="">Select a country</option>
+  <option value="Australia">Australia</option>
+  <option value="Japan">Japan</option>
+  <option value="New Zealand">New Zealand</option>
+  <option value="China">China</option>
+  <option value="Indonesia">Indonesia</option>
+  <option value="Other">Other</option>
+</select>
+<br><br>
+<!--Date of birth Tag-->
+<label for="dob">Date of Birth</label>
+<br>
+<input type="date" name="dob" id="dob" required>
+<br><br>
+
+<!--Checkbox Tag-->
+<input type="checkbox" name="checkbox" id="checkbox" required>
+<br><br>
+
+<!--Color Tag-->
+<input type="color" name="color" id="color" required>
+<br><br>
+
+<!--Text Area Tag-->
+<label for="address">Address</label>
+<br>
+<textarea name="address" id="address" required></textarea>
+<br><br>
+<!--Submit Tag-->
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+<br>
+
+</form>
+
+<br><br>
+<!--Button Tag-->
+<button type="submit">Submit Button</button>
+<br><br>
+<button type="button">Click Button</button>
+<br><br>
+<button type="reset">Reser Button</button>
+<br><br>
+
+<!--HTML Global Attributes-->
+<h2 id="intro">An id is a Global Attribute</h2>
+
+<h2 class="heading">A Class is a Global Attribute</h2>
+
+<h2 style="color: red;">A Style is a Global Attribute</h2>
+
+<h2 title="This is Title">A Title is a Global Attribute</h2>
+
+<h2 data-user="alex"> A Custom Attribute is a Global Attribute</h2>
+<br>
+<!--HTML Specific Attributes-->
+<h2><a href="#" target="_blank"></a> A href and target is a Specific Attribute</h2>
+
+<h2><img src="" alt="" width="" height=""> A src, alt, width and heights are Specific Attribute</h2>
+
+<h2><input type="text" name="" placeholder="" value="" disabled readonly required><br>type, name, placeholder,value, disabled, readonly, requireds are Specific Attribute</h2>
+<br><br>
+
+<!--Div and Spans are block level and inline elements in html-->
+
+<div>
+
+  <h1>This is a H1 Tag</h1>
+
+  <span>This is Span Tag</span>
+
+</div>
+<br><br>
+<!-- This is a Comment -->
+ <!-- 
+  This ia a multi line Comment  
+  This ia a multi line Comment
+  This ia a multi line Comment
+ -->
+
+ <p>This is a P Tag</p>
+
+ <!-- <h1>This is a H1 Tag</h1> -->
+  <br>
+  <!-- HTML formatting -->
+
+  <!-- B Tag used to make text bold -->
+  <p>Lorem ipsum <b>dolar</b> sit, amet consectetur adipisicing elit. Explicabo, consectetur?</p>
+  
+  <!-- Strong Tag used make text strong importance -->
+  <p>Lorem ipsum <strong>dolar</strong> sit, amet consectetur adipisicing elit. Explicabo, consectetur?</p>
+
+  <!-- i Tag used to make text italic -->
+  <p>Lorem ipsum <i>dolar</i> sit, amet consectetur adipisicing elit. Explicabo, consectetur?</p>
+
+    <!-- em Tag used to make text emphasized -->
+  <p>Lorem ipsum <em>dolar</em> sit, amet consectetur adipisicing elit. Explicabo, consectetur?</p>
+
+    <!-- u Tag used to make underline -->
+  <p>Lorem ipsum <u>dolar</u> sit, amet consectetur adipisicing elit. Explicabo, consectetur?</p>
+
+    <!-- Mark Tag used to highlight text -->
+  <p>Lorem ipsum <mark>dolar</mark> sit, amet consectetur adipisicing elit. Explicabo, consectetur?</p>
+
+    <!-- small Tag used to text in smaller font size -->
+  <p>Lorem ipsum <small>dolar</small> sit, amet consectetur adipisicing elit. Explicabo, consectetur?</p>
+
+    <!-- del Tag used text to appear strikethrough -->
+  <p>Lorem ipsum <del>dolar</del> sit, amet consectetur adipisicing elit. Explicabo, consectetur?</p>
+
+    <!-- ins Tag used text to make underline -->
+  <p>Lorem ipsum <ins>dolar</ins> sit, amet consectetur adipisicing elit. Explicabo, consectetur?</p>
+
+    <!-- sub Tag used text to make text Subscript lower -->
+  <p>Lorem ipsum <sub>dolar</sub> sit, amet consectetur adipisicing elit. Explicabo, consectetur?</p>
+
+    <!-- sub Tag used text to make text Subscript upper -->
+  <p>Lorem ipsum <sup>dolar</sup> sit, amet consectetur adipisicing elit. Explicabo, consectetur?</p>
+
+  <p>12<sup>(2)</sup></p>
+  <br><br>
+
+  <!-- Semantic Elements Tags-->
+
+  <header>
+    <h1> This is a HTML project</h1>
+    <nav>
+      <ul>
+        <li> <a href="#"></a>Home</li>
+        <li><a href="#"></a>Blog</li>
+        <li><a href="#"></a>Contact</li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>This is our content</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, blanditiis?</p>
+  </section>
+
+  <article>
+    <h3>This is a blog post</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, voluptatum.</p>
+    <time datetime="09/18/2025">09/18/2025</time>
+  </article>
+
+  <aside>
+    <h4>About the author</h4>
+    <P>Lorem ipsum dolor sit amet.</P>
+  </aside>
+
+  <footer>
+    <p>&copy; 2025 This is Blog</p>
+  </footer>
+
+  <figure>
+    <img src="https://picsum.photos/id/1/200/300" alt="image">
+    <figcaption>Image Caption</figcaption>
+  </figure>
+
+
+
+
+
 </body>
 </html>
